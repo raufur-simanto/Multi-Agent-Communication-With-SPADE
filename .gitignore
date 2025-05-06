@@ -1,0 +1,5 @@
+venv
+__pycache__
+storage.txt
+requirements_check.txt
+useragent_gui.py

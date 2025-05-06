@@ -1,5 +1,5 @@
 
-# Agent-Based Communication System with SPADE and EJABBERD
+# Agent-Based Communication System with SPADE and ejabberd
 
 ## 📌 Project Summary
 
@@ -93,7 +93,7 @@ The following diagram shows the detailed message-passing steps between agents in
 
 ## Local setup
 ```bash
-git clone https://github.com/dmitry-kuznetsov-dev/agent-based-communication-system.git
+git clone https://github.com/raufur-simanto/Multi-Agent-Communication-With-SPADE.git
 cd agent-based-communication-system
 ```
 ## 🚀 How to Run

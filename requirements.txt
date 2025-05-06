@@ -1,0 +1,9 @@
+spade
+slixmpp==1.7.1
+aiohttp==3.10.4
+
+
+
+# slixmpp==1.7.1
+# pyjabber==0.2.4
+# python==3.13.3

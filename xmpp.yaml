@@ -1,0 +1,20 @@
+version: '3.8'
+
+services:
+  ejabberd:
+    image: ejabberd/ecs
+    container_name: ejabberd
+    ports:
+      - "5222:5222"   # XMPP client connections
+      - "5269:5269"   # XMPP server-to-server
+      - "5280:5280"   # Web Admin and HTTP APIs
+      - "5443:5443"   # WebSocket connections
+    environment:
+      - EJABBERD_DOMAIN=localhost
+      - EJABBERD_HOST=localhost
+    volumes:
+      - ejabberd-data:/home/ejabberd/database
+    restart: unless-stopped
+
+volumes:
+  ejabberd-data:
